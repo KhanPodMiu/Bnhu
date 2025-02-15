@@ -173,3 +173,29 @@ body {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+#events {
+  padding: 8rem 2rem;
+  background-color: #f8f9fa;
+}
+
+.events-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.event-card {
+  background: white;
+  padding: 2rem;
+  margin: 1rem 0;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.event-date {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #007aff;
+}
